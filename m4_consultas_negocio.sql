@@ -1,3 +1,7 @@
+-- Nota:
+-- La consigna utiliza EXTRACT(MONTH FROM fecha_venta).
+-- Como la base Ventas_Tech_DB fue desarrollada en SQL Server,
+-- se utiliza MONTH(fecha_venta), que es su equivalente en este motor.
 -- Consulta 1 - Resumen ejecutivo mensual
 SELECT
     MONTH(fecha_venta) AS mes,
