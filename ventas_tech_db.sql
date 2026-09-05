@@ -72,6 +72,14 @@ INSERT INTO clientes (id_cliente, nombre, email, ciudad, fecha_registro) VALUES
 (4, 'Pedro Sanz', 'pedro@mail.com', 'Mendoza', '2024-02-15'),
 (5, 'Laura Torres', 'laura@mail.com', 'Tucumán', '2024-03-01');
 
+
+-- Clientes adicionales para análisis del Módulo 5
+INSERT INTO clientes
+    (id_cliente, nombre, email, ciudad, fecha_registro)
+VALUES
+    (6, 'Sofía Martínez', 'sofia@mail.com', 'La Plata', '2024-06-10'),
+    (7, 'Diego Fernández', 'diego@mail.com', 'Mar del Plata', '2024-06-15');
+
 -- Carga en productos
 INSERT INTO productos (id_producto, nombre_producto, id_categoria, precio, stock, activo) VALUES 
 (1, 'Laptop Pro 15', 1, 1200.00, 15, 1),
@@ -80,6 +88,14 @@ INSERT INTO productos (id_producto, nombre_producto, id_categoria, precio, stock
 (4, 'Auriculares BT Pro', 3, 120.00, 35, 1),
 (5, 'SSD Externo 1TB', 4, 130.00, 18, 1),
 (6, 'Teclado Mecánico', 2, 95.00, 40, 1);
+
+
+-- Productos adicionales para análisis del Módulo 5
+INSERT INTO productos
+    (id_producto, nombre_producto, id_categoria, precio, stock, activo)
+VALUES
+    (7, 'Webcam Full HD', 2, 75.00, 20, 1),
+    (8, 'Pendrive 128GB', 4, 35.00, 50, 1);
 
 -- Carga en ventas
 INSERT INTO ventas (id_venta, id_cliente, id_producto, cantidad, precio_unitario, fecha_venta) VALUES 
